@@ -4,6 +4,7 @@ const input = process.argv[0];
 
 function standardizeInput(input) {
   if(input[input.length - 1] === "s") {
+    console.log(input)
     input.pop();
     return parseInt(input);
   } else if(input[input.length - 1] === "n") {
