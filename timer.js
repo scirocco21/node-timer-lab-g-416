@@ -11,6 +11,10 @@ function standardizeInput(input) {
   }
 }
 
+function countDown() {
+
+}
+
 let duration = standardizeInput(input);
 
 while(duration > 0) {
