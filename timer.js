@@ -13,9 +13,10 @@ function standardizeInput(input) {
 
 let duration = standardizeInput(input);
 
-while(duration > 0) {
-  setInterval(function() {
-    console.log(duration);
-    duration -= 1;
-  }, 1000);
-}
+setInterval(() => {
+  console.log(duration);
+  duration -= 1;
+  if(duration === 0) {
+    process.exit()
+  }
+}, 1000);
