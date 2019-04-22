@@ -11,7 +11,7 @@ function standardizeInput(input) {
   }
 }
 
-const duration = standardizeInput(input);
+let duration = standardizeInput(input);
 
 while(duration > 0) {
   setInterval(function() {
