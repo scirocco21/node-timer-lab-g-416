@@ -11,10 +11,6 @@ function standardizeInput(input) {
   }
 }
 
-function countDown(time) {
-  console.log(time);
-}
-
 let duration = standardizeInput(input);
 
 while(duration > 0) {
