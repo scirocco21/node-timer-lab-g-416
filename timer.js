@@ -6,7 +6,7 @@ function standardizeInput(input) {
   if(input[input.length - 1] === "s") {
     return parseInt(input.slice(0, -1));
   } else if(input[input.length - 1] === "n") {
-    return parseInt(input.slice(0, -3))
+    return parseInt(input.slice(0, -3)) * 60
   }
 }
 
