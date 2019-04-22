@@ -13,7 +13,7 @@ function standardizeInput(input) {
 let duration = standardizeInput(input);
 
 setInterval(() => {
-  console.log(duration);
+  console.log("Left: ", duration);
   duration -= 1;
   if(duration === 0) {
     process.exit();
