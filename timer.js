@@ -18,10 +18,7 @@ function countDown(time) {
 let duration = standardizeInput(input);
 
 while(duration > 0) {
-  setInterval(function() {
-    console.log(duration);
-    duration--;
-  }, 1000);
+  setInterval(countDown, 1000);
 }
 
 process.exit()
