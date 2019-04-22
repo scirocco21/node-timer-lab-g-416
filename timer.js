@@ -14,7 +14,7 @@ function standardizeInput(input) {
 let duration = standardizeInput(input);
 
 while(duration > 0) {
-  setInterval(function() {
+  setInterval(function(duration) {
     console.log(duration)
   }, 1000);
 }
