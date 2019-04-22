@@ -17,6 +17,6 @@ setInterval(() => {
   console.log(duration);
   duration -= 1;
   if(duration === 0) {
-    process.exit()
+    process.exit();
   }
 }, 1000);
