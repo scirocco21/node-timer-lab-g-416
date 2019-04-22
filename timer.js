@@ -18,5 +18,3 @@ while(duration > 0) {
     console.log(duration)
   }, 1000);
 }
-
-process.exit()
